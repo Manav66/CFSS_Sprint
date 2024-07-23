@@ -11,8 +11,8 @@
 #include <sys/socket.h>
 #include <sqlite3.h>
 
-#define PORT 12345
-#define MAX_CLIENTS 5
+#define PORT 13569
+#define MAX_CLIENTS 6
 #define RESPONSE_SIZE 8192
 #define BUFFER_SIZE 1024
 #define ENCRYPT_KEY 34

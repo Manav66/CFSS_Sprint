@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 
-#define PORT 12345
+#define PORT 13569
 #define SERVER_IP "127.0.0.1"
 #define BUFFER_SIZE 8192
 #define ENCRYPT_KEY 34
