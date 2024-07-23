@@ -55,16 +55,15 @@ int main() {
             memset(buffer, '\0', sizeof(buffer));
 
             call(command);
-            printf("Call Command executed%s\n", command);
+
             char command_copy[40];
             strcpy(command_copy, command);
 
             char *call_no = strtok(command_copy, " ");
             call_no = strtok(NULL, " ");
-            printf("Before send %s\n", command);
 
             send_recv_query(client_fd, command, buffer);
-            printf("After send %s\t%s\n", buffer, command);
+
             if (buffer[0] == 'U' || buffer[0] == 'N') flag = 1;
             if (flag == 1) {
                 // system("clear");
@@ -98,10 +97,8 @@ int main() {
             strcpy(user_no, local_no);
 
             check(command);
-            printf("Command before sending:%s", command);
+
             send_recv_query(client_fd, command, buffer);
-            printf("Command after sending:%s", command);
-            printf("Buffer after sending:%s", buffer);
 
             if (buffer[0] == 'F' || buffer[0] == 'N') {
 
@@ -113,7 +110,7 @@ int main() {
                 strcpy(command, "UPD_USER ");
 
                 int i = 9;
-                printf("After updating%s\t%d\n", command, user_no);
+
                 for (int j = 0; j < strlen(user_no); j++) {
                     command[i++] = user_no[j];
                 }
@@ -175,7 +172,6 @@ int main() {
                     check(command);
 
                     send_recv_query(client_fd, command, buffer);
-                    printf("LEt me know command : %s \t buffer : %s\n", command, buffer);
 
                     memset(command, '\0', sizeof(command));
                     memset(buffer, '\0', sizeof(buffer));
@@ -200,7 +196,7 @@ int main() {
                     call_no = strtok(NULL, " ");
 
                     send_recv_query(client_fd, command, buffer);
-                    printf("After send me know buffer : %s\t command : %s\n", buffer, command);
+
                     if (buffer[0] == 'U' || buffer[0] == 'N') {
                         // system("clear");
                         printf("Calling number: %s\n\n", call_no);
@@ -286,7 +282,6 @@ int main() {
                     check(command);
 
                     send_recv_query(client_fd, command, buffer);
-                    printf("LEt me know command : %s \t buffer : %s\n", command, buffer);
 
                     memset(command, '\0', sizeof(command));
                     memset(buffer, '\0', sizeof(buffer));
@@ -312,7 +307,6 @@ int main() {
                     call_no = strtok(NULL, " ");
 
                     send_recv_query(client_fd, command, buffer);
-                    printf("After send me know buffer : %s\t command : %s\n", buffer, command);
                     if (buffer[0] == 'U' || buffer[0] == 'N') {
                         // system("clear");
                         printf("Calling number: %s\n\n", call_no);
