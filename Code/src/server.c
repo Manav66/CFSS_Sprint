@@ -1,3 +1,5 @@
+// Backend functions for handling client-server interactions and operations in the server file.
+
 #include"server.h"
 #include"sqlite3.h"
 
