@@ -1,0 +1,96 @@
+[INFO] Starting server
+[INFO] Time: 2024-07-23 07:14:32
+
+[INFO] Opening database
+[INFO] Server listening on port 12345...
+2024-07-23 07:14:46 [INFO] Buffer: CFS_CODE 4567
+2024-07-23 07:14:46 [INFO] Call: Request recieved to retrieve code for user forwarding data of '4567'
+2024-07-23 07:14:46 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-23 07:14:46 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-23 07:14:51 [INFO] Buffer: ADD_LOGIN 4567 abc
+2024-07-23 07:14:51 [INFO] Request recieved to add login
+2024-07-23 07:14:51 [DEBUG] Sent the following response to the client: 
+[ERROR] User '4567' is already registered to the CFS
+2024-07-23 07:14:51 [DEBUG] Sent the following response to the client: 
+}gttqtBw•‡”BIVWXYIB‹•Bƒ”‡ƒ†›B”‡‰‹•–‡”‡†B–‘B–Š‡Behu,
+2024-07-23 07:15:03 [INFO] Buffer: CFS_CODE 1357
+2024-07-23 07:15:03 [INFO] Call: Request recieved to retrieve code for user forwarding data of '1357'
+2024-07-23 07:15:03 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-23 07:15:03 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-23 07:15:11 [INFO] Buffer: ADD_LOGIN 1357 asd
+2024-07-23 07:15:11 [INFO] Request recieved to add login
+2024-07-23 07:15:11 [DEBUG] Sent the following response to the client: 
+[SERVER] User login info '1357' has been added to the database
+2024-07-23 07:15:11 [DEBUG] Sent the following response to the client: 
+}ugtxgtBw•‡”B‘‰‹B‹ˆ‘BISUWYIBŠƒ•B„‡‡Bƒ††‡†B–‘B–Š‡B†ƒ–ƒ„ƒ•‡,
+2024-07-23 07:15:19 [INFO] Buffer: ADD_USER 1357 900 1 1 B
+[INFO] Request recieved to add user '1357'
+2024-07-23 07:15:19 [DEBUG] Sent the following response to the client: 
+[SERVER] User info '1357' has been added to the database
+2024-07-23 07:15:19 [DEBUG] Sent the following response to the client: 
+}ugtxgtBw•‡”B‹ˆ‘BISUWYIBŠƒ•B„‡‡Bƒ††‡†B–‘B–Š‡B†ƒ–ƒ„ƒ•‡,
+2024-07-23 07:15:24 [INFO] Buffer: CFS_CODE 1357B[RRBSBSBd
+2024-07-23 07:15:24 [INFO] Call: Request recieved to retrieve code for user forwarding data of '1357B[RRBSBSBd'
+2024-07-23 07:15:24 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-23 07:15:24 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-23 07:15:36 [INFO] Buffer: CFS_CODE 657
+2024-07-23 07:15:36 [INFO] Call: Request recieved to retrieve code for user forwarding data of '657'
+2024-07-23 07:15:36 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-23 07:15:36 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-23 07:15:49 [INFO] Buffer: CFS_CODE 1357
+2024-07-23 07:15:49 [INFO] Call: Request recieved to retrieve code for user forwarding data of '1357'
+2024-07-23 07:15:49 [DEBUG] Sent the following response to the client: 
+F 900 3
+2024-07-23 07:15:49 [DEBUG] Sent the following response to the client: 
+hB[RRBU,
+2024-07-23 07:15:57 [INFO] Buffer: CFS_CODE 1357
+2024-07-23 07:15:57 [INFO] Call: Request recieved to retrieve code for user forwarding data of '1357'
+2024-07-23 07:15:57 [DEBUG] Sent the following response to the client: 
+F 900 3
+2024-07-23 07:15:57 [DEBUG] Sent the following response to the client: 
+hB[RRBU,
+2024-07-23 07:16:24 [INFO] Buffer: CFS_CODE 1234567
+2024-07-23 07:16:24 [INFO] Call: Request recieved to retrieve code for user forwarding data of '1234567'
+2024-07-23 07:16:24 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-23 07:16:24 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-23 07:16:31 [INFO] Buffer: CFS_CODE 1357
+2024-07-23 07:16:31 [INFO] Call: Request recieved to retrieve code for user forwarding data of '1357'
+2024-07-23 07:16:31 [DEBUG] Sent the following response to the client: 
+F 900 3
+2024-07-23 07:16:31 [DEBUG] Sent the following response to the client: 
+hB[RRBU,
+2024-07-23 07:16:54 [INFO] Buffer: AUTH_USER 1357 asd
+2024-07-23 07:16:54 [INFO] Request recieved to authenticate user
+2024-07-23 07:16:54 [DEBUG] Sent the following response to the client: 
+AUTH_SUCCESS
+2024-07-23 07:16:54 [DEBUG] Sent the following response to the client: 
+cwvjuweeguu,
+2024-07-23 07:17:14 [INFO] Buffer: UPD_USER 1357 U 0 0 ±
+2024-07-23 07:17:14 [INFO] Request recieved to update user forwarding data
+[INFO] Forwarding number for '1357' has been updated to 'U'
+[INFO] Registration status for '1357' has been updated to 'UNREGISTERED'
+[INFO] Activation status for '1357' has been updated to 'NOT ACTIVE'
+[INFO] Updated forwarding type
+2024-07-23 07:17:14 [DEBUG] Sent the following response to the client: 
+[SERVER] Forwarding number for '1357' has been updated to 'U'
+[SERVER] Registration status for '1357' has been updated to 'UNREGISTERED'
+[SERVER] Activation status for '1357' has been updated to 'NOT ACTIVE'
+[SERVER] Forwarding type for '1357' has been updated to 2024-07-23 07:17:14 [DEBUG] Sent the following response to the client: 
+}ugtxgtBh‘”™ƒ”†‹‰B—„‡”Bˆ‘”BISUWYIBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BIwI,}ugtxgtBt‡‰‹•–”ƒ–‹‘B•–ƒ–—•Bˆ‘”BISUWYIBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BIwptgikuvgtgfI,}ugtxgtBc…–‹˜ƒ–‹‘B•–ƒ–—•Bˆ‘”BISUWYIBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BIpqvBcevkxgI,}ugtxgtBh‘”™ƒ”†‹‰B–›’‡Bˆ‘”BISUWYIBŠƒ•B„‡‡B—’†ƒ–‡†B–‘B
+2024-07-23 07:17:33 [INFO] Buffer: AUTH_USER 1357 asd
+2024-07-23 07:17:33 [INFO] Request recieved to authenticate user
+2024-07-23 07:17:33 [DEBUG] Sent the following response to the client: 
+AUTH_SUCCESS
+2024-07-23 07:17:33 [DEBUG] Sent the following response to the client: 
+cwvjuweeguu,
+[INFO] Handling incoming client communication
