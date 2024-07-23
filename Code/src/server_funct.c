@@ -390,7 +390,7 @@ char* validate_auth_info(const char* clientNumber, const char* password)
     }
     else{
         char* currentTime = get_current_time();
-        printf("%s [WARN] User '%s' has entered an invalid password.\n", currentTime, clientNumber);
+        printf("%s [WARN] User '%s' has entered invalid credentials.\n", currentTime, clientNumber);
         free(currentTime);
         sprintf(responseData, "AUTH_INV\n");
         return responseData;
@@ -512,11 +512,11 @@ char* view_cfs_status(const char* clientNumber)
     case 1: printf("%s [INFO] Forward Type: Unconditional\n", currentTime);
             sprintf(responseData + strlen(responseData), "[SERVER] Forward Type: Unconditional\n");
             break;
-    case 2: printf("%s [INFO] Forward Type: Busy\n", currentTime);
-            sprintf(responseData + strlen(responseData), "[SERVER] Forward Type: Busy\n");
-            break;
-    case 3: printf("%s [INFO] Forward Type: No Reply\n", currentTime);
+    case 2: printf("%s [INFO] Forward Type: No Reply\n", currentTime);
             sprintf(responseData + strlen(responseData), "[SERVER] Forward Type: No Reply\n");
+            break;
+    case 3: printf("%s [INFO] Forward Type: Busy\n", currentTime);
+            sprintf(responseData + strlen(responseData), "[SERVER] Forward Type: Busy\n");
             break;
     }
     free(currentTime);
@@ -652,12 +652,12 @@ char* view_cfs_code(const char* clientNumber)
             //sprintf(responseData + strlen(responseData), "[SERVER] Forward Type: Unconditional\n");
             sprintf(responseData, "F %s 1\n", forwardNumber);
             break;
-    case 2: printf("%s [INFO] Forward Type: Busy\n", currentTime);
-            //sprintf(responseData + strlen(responseData), "[SERVER] Forward Type: Busy\n");
+    case 2: printf("%s [INFO] Forward Type: No Reply\n", currentTime);
+            //sprintf(responseData + strlen(responseData), "[SERVER] Forward Type: No Reply\n");
             sprintf(responseData, "F %s 2\n", forwardNumber);
             break;
-    case 3: printf("%s [INFO] Forward Type: No Reply\n", currentTime);
-            //sprintf(responseData + strlen(responseData), "[SERVER] Forward Type: No Reply\n");
+    case 3: printf("%s [INFO] Forward Type: Busy\n", currentTime);
+            //sprintf(responseData + strlen(responseData), "[SERVER] Forward Type: Busy\n");
             sprintf(responseData, "F %s 3\n", forwardNumber);
             break;
     }

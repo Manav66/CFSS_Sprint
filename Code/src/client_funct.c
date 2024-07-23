@@ -221,7 +221,7 @@ int user_menu(){
  
 //create command to update user data
 void create_update_cmd(char command[], int ch){
-        printf("The command is : %s\t and choice is : %d",command,ch);
+        // printf("The command is : %s\t and choice is : %d",command,ch);
         char client_number[11];
         char forwarding_number[11];
         int registered=0;
