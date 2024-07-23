@@ -6,6 +6,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <arpa/inet.h>
+#include <time.h>
 
 #define PORT 13569
 #define SERVER_IP "127.0.0.1"
