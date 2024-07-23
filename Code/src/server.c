@@ -23,11 +23,12 @@ int main() {
     // Special ASCII Art for the server program
     // From: https://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=ForwardIt
     printf("\n");
-    printf(" ███████╗ ███████╗ ███████╗ ███████╗");
-    printf(" ██╔════╝ ██╔════╝ ██╔════╝ ██╔════╝");
-    printf(" ██║      █████╗   ███████╗ ███████╗");
-    printf(" ██║      ██╔══╝   ╚════██║ ╚════██║");
-    printf(" ╚██████╗ ██║      ███████║ ███████║");
+    printf("   ██████╗███████╗███████╗███████╗  \n");
+    printf("  ██╔════╝██╔════╝██╔════╝██╔════╝  \n");
+    printf("  ██║     █████╗  ███████╗███████╗  \n");
+    printf("  ██║     ██╔══╝  ╚════██║╚════██║  \n");
+    printf("  ╚██████╗██║     ███████║███████║  \n");
+    printf("   ╚═════╝╚═╝     ╚══════╝╚══════╝  \n");
     printf("                                        Call Forwarding System - Simulator\n\n");
 
     sprintf(logMsg, "[INFO] Starting server\n");
