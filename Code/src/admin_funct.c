@@ -1,3 +1,4 @@
+// Program to define and implement the functions used in the admin.c 
 #include<admin.h>
 #define USERID "admin"
 #define PWD "admin@123"

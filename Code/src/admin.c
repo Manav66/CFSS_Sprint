@@ -1,4 +1,4 @@
-
+// Program to run the admin code. Functions are called here and implemented in admin_funct.h
 #include "admin.h"
 
 int main()

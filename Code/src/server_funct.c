@@ -1,3 +1,4 @@
+// Program to define and implement the functions used in the server.c 
 #include"server.h"
 #include"sqlite3.h"
 

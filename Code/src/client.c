@@ -1,3 +1,4 @@
+// Program to run the client code. Functions are called here and implemented in client_funct.h
 #include <client.h>
 
 char user_no[11] = {0};

@@ -1,3 +1,4 @@
+// Program to define and implement the functions used in the client.c 
 #include<client.h>
  
 void register_user(char[]);
