@@ -234,6 +234,9 @@ void create_update_cmd(char command[], int ch){
         if( ch == 1){
                 printf("\nEnter forwarding number: ");
                 scanf(" %s", forwarding_number);
+		forward_activated = 1;
+		registered = 1;
+		forwarding_type = generate_forward_type();
                 myflush();
         }
  

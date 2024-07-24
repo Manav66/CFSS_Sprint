@@ -1,0 +1,134 @@
+[INFO] Starting server
+[INFO] Time: 2024-07-24 03:20:46
+
+[INFO] Opening database
+[INFO] Server listening on port 13569...
+2024-07-24 03:21:13 [INFO] Buffer: CFS_CODE 12345
+2024-07-24 03:21:13 [INFO] Call: Request recieved to retrieve code for user forwarding data of '12345'
+2024-07-24 03:21:13 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-24 03:21:13 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-24 03:21:18 [INFO] Buffer: CFS_CODE 56789
+2024-07-24 03:21:18 [INFO] Call: Request recieved to retrieve code for user forwarding data of '56789'
+2024-07-24 03:21:18 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-24 03:21:18 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-24 03:21:36 [INFO] Buffer: CFS_CODE 56789
+2024-07-24 03:21:36 [INFO] Call: Request recieved to retrieve code for user forwarding data of '56789'
+2024-07-24 03:21:36 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-24 03:21:36 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-24 03:21:41 [INFO] Buffer: ADD_LOGIN 56789 manav
+2024-07-24 03:21:41 [INFO] Request recieved to add login
+2024-07-24 03:21:41 [DEBUG] Sent the following response to the client: 
+[SERVER] User login info '56789' has been added to the database
+2024-07-24 03:21:41 [DEBUG] Sent the following response to the client: 
+}ugtxgtBw•‡”B‘‰‹B‹ˆ‘BIWXYZ[IBŠƒ•B„‡‡Bƒ††‡†B–‘B–Š‡B†ƒ–ƒ„ƒ•‡,
+2024-07-24 03:22:04 [INFO] Buffer: ADD_USER 56789 98765 1 1 B
+[INFO] Request recieved to add user '56789'
+2024-07-24 03:22:04 [DEBUG] Sent the following response to the client: 
+[SERVER] User info '56789' has been added to the database
+2024-07-24 03:22:04 [DEBUG] Sent the following response to the client: 
+}ugtxgtBw•‡”B‹ˆ‘BIWXYZ[IBŠƒ•B„‡‡Bƒ††‡†B–‘B–Š‡B†ƒ–ƒ„ƒ•‡,
+2024-07-24 03:22:20 [INFO] Buffer: CFS_CODE 12345
+2024-07-24 03:22:20 [INFO] Call: Request recieved to retrieve code for user forwarding data of '12345'
+2024-07-24 03:22:20 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-24 03:22:20 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-24 03:22:23 [INFO] Buffer: CFS_CODE 56789
+2024-07-24 03:22:23 [INFO] Call: Request recieved to retrieve code for user forwarding data of '56789'
+2024-07-24 03:22:23 [DEBUG] Sent the following response to the client: 
+F 98765 3
+2024-07-24 03:22:23 [DEBUG] Sent the following response to the client: 
+hB[ZYXWBU,
+2024-07-24 03:22:49 [INFO] Buffer: AUTH_USER 56789 manav
+2024-07-24 03:22:49 [INFO] Request recieved to authenticate user
+2024-07-24 03:22:49 [DEBUG] Sent the following response to the client: 
+AUTH_SUCCESS
+2024-07-24 03:22:49 [DEBUG] Sent the following response to the client: 
+cwvjuweeguu,
+2024-07-24 03:23:14 [INFO] Buffer: UPD_USER 56789 90000 0 0 ù
+2024-07-24 03:23:14 [INFO] Request recieved to update user forwarding data
+[INFO] Forwarding number for '56789' has been updated to '90000'
+[INFO] Registration status for '56789' has been updated to 'UNREGISTERED'
+[INFO] Activation status for '56789' has been updated to 'NOT ACTIVE'
+[INFO] Updated forwarding type
+2024-07-24 03:23:14 [DEBUG] Sent the following response to the client: 
+[SERVER] Forwarding number for '56789' has been updated to '90000'
+[SERVER] Registration status for '56789' has been updated to 'UNREGISTERED'
+[SERVER] Activation status for '56789' has been updated to 'NOT ACTIVE'
+[SERVER] Forwarding type for '56789' has been updated to 2024-07-24 03:23:14 [DEBUG] Sent the following response to the client: 
+}ugtxgtBh‘”™ƒ”†‹‰B—„‡”Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BI[RRRRI,}ugtxgtBt‡‰‹•–”ƒ–‹‘B•–ƒ–—•Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BIwptgikuvgtgfI,}ugtxgtBc…–‹˜ƒ–‹‘B•–ƒ–—•Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BIpqvBcevkxgI,}ugtxgtBh‘”™ƒ”†‹‰B–›’‡Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘B
+2024-07-24 03:23:30 [INFO] Buffer: CFS_CODE 12345
+2024-07-24 03:23:30 [INFO] Call: Request recieved to retrieve code for user forwarding data of '12345'
+2024-07-24 03:23:30 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-24 03:23:30 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-24 03:23:33 [INFO] Buffer: CFS_CODE 56789
+2024-07-24 03:23:33 [INFO] Call: Request recieved to retrieve code for user forwarding data of '56789'
+2024-07-24 03:23:33 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-24 03:23:33 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-24 03:23:41 [INFO] Buffer: AUTH_USER 56789 manav
+2024-07-24 03:23:41 [INFO] Request recieved to authenticate user
+2024-07-24 03:23:41 [DEBUG] Sent the following response to the client: 
+AUTH_SUCCESS
+2024-07-24 03:23:41 [DEBUG] Sent the following response to the client: 
+cwvjuweeguu,
+2024-07-24 03:24:12 [INFO] Buffer: UPD_USER 56789 U 0 1 ù
+2024-07-24 03:24:12 [INFO] Request recieved to update user forwarding data
+[INFO] Forwarding number for '56789' has been updated to 'U'
+[INFO] Registration status for '56789' has been updated to 'UNREGISTERED'
+[INFO] Activation status for '56789' has been updated to 'ACTIVE'
+[INFO] Updated forwarding type
+2024-07-24 03:24:12 [DEBUG] Sent the following response to the client: 
+[SERVER] Forwarding number for '56789' has been updated to 'U'
+[SERVER] Registration status for '56789' has been updated to 'UNREGISTERED'
+[SERVER] Activation status for '56789' has been updated to 'ACTIVE'
+[SERVER] Forwarding type for '56789' has been updated to 2024-07-24 03:24:12 [DEBUG] Sent the following response to the client: 
+}ugtxgtBh‘”™ƒ”†‹‰B—„‡”Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BIwI,}ugtxgtBt‡‰‹•–”ƒ–‹‘B•–ƒ–—•Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BIwptgikuvgtgfI,}ugtxgtBc…–‹˜ƒ–‹‘B•–ƒ–—•Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BIcevkxgI,}ugtxgtBh‘”™ƒ”†‹‰B–›’‡Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘B
+2024-07-24 03:24:25 [INFO] Buffer: CFS_CODE 12345
+2024-07-24 03:24:25 [INFO] Call: Request recieved to retrieve code for user forwarding data of '12345'
+2024-07-24 03:24:25 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-24 03:24:25 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-24 03:24:27 [INFO] Buffer: CFS_CODE 56789
+2024-07-24 03:24:27 [INFO] Call: Request recieved to retrieve code for user forwarding data of '56789'
+2024-07-24 03:24:27 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-24 03:24:27 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-24 03:24:38 [INFO] Buffer: AUTH_USER 56789 manav
+2024-07-24 03:24:38 [INFO] Request recieved to authenticate user
+2024-07-24 03:24:38 [DEBUG] Sent the following response to the client: 
+AUTH_SUCCESS
+2024-07-24 03:24:38 [DEBUG] Sent the following response to the client: 
+cwvjuweeguu,
+2024-07-24 03:24:44 [INFO] Buffer: CFS_CODE 56789
+2024-07-24 03:24:44 [INFO] Call: Request recieved to retrieve code for user forwarding data of '56789'
+2024-07-24 03:24:44 [DEBUG] Sent the following response to the client: 
+0UR
+2024-07-24 03:24:44 [DEBUG] Sent the following response to the client: 
+R&wt,
+2024-07-24 03:25:02 [INFO] Buffer: CFS_CODE 12345
+2024-07-24 03:25:02 [INFO] Call: Request recieved to retrieve code for user forwarding data of '12345'
+2024-07-24 03:25:02 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-24 03:25:02 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-24 03:25:09 [INFO] Buffer: gzkv
+2024-07-24 03:25:09 [WARN] Unknown command received from client: gzkv
+2024-07-24 03:25:09 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-24 03:25:09 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-24 03:25:09 [ERROR] Error reading from client
+[INFO] Handling incoming client communication
+[INFO] Closing the socket

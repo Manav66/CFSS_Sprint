@@ -1,0 +1,38 @@
+[INFO] Starting server
+[INFO] Time: 2024-07-24 03:33:46
+
+[INFO] Opening database
+[INFO] Server listening on port 13569...
+2024-07-24 03:33:58 [INFO] Buffer: AUTH_USER 56789 manav
+2024-07-24 03:33:58 [INFO] Request recieved to authenticate user
+2024-07-24 03:33:58 [DEBUG] Sent the following response to the client: 
+AUTH_SUCCESS
+2024-07-24 03:33:58 [DEBUG] Sent the following response to the client: 
+cwvjuweeguu,
+2024-07-24 03:34:06 [INFO] Buffer: UPD_USER 56789 11111 1 1 
+2024-07-24 03:34:06 [INFO] Request recieved to update user forwarding data
+[INFO] Forwarding number for '56789' has been updated to '11111'
+[INFO] Registration status for '56789' has been updated to 'REGISTERED'
+[INFO] Activation status for '56789' has been updated to 'ACTIVE'
+[INFO] Updated forwarding type
+2024-07-24 03:34:06 [DEBUG] Sent the following response to the client: 
+[SERVER] Forwarding number for '56789' has been updated to '11111'
+[SERVER] Registration status for '56789' has been updated to 'REGISTERED'
+[SERVER] Activation status for '56789' has been updated to 'ACTIVE'
+[SERVER] Forwarding type for '56789' has been updated to 2024-07-24 03:34:06 [DEBUG] Sent the following response to the client: 
+}ugtxgtBh‘”™ƒ”†‹‰B—„‡”Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BISSSSSI,}ugtxgtBt‡‰‹•–”ƒ–‹‘B•–ƒ–—•Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BItgikuvgtgfI,}ugtxgtBc…–‹˜ƒ–‹‘B•–ƒ–—•Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BIcevkxgI,}ugtxgtBh‘”™ƒ”†‹‰B–›’‡Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘B
+2024-07-24 03:34:39 [INFO] Buffer: CFS_CODE 12345
+2024-07-24 03:34:39 [INFO] Call: Request recieved to retrieve code for user forwarding data of '12345'
+2024-07-24 03:34:39 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-24 03:34:39 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-24 03:34:42 [INFO] Buffer: CFS_CODE 56789
+2024-07-24 03:34:42 [INFO] Call: Request recieved to retrieve code for user forwarding data of '56789'
+2024-07-24 03:34:42 [DEBUG] Sent the following response to the client: 
+NF
+2024-07-24 03:34:42 [DEBUG] Sent the following response to the client: 
+ph,
+2024-07-24 03:35:12 [ERROR] Error reading from client
+[INFO] Handling incoming client communication
+[INFO] Closing the socket

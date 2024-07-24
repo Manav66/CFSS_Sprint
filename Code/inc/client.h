@@ -11,7 +11,7 @@
 #define PORT 13569
 #define SERVER_IP "127.0.0.1"
 #define BUFFER_SIZE 8192
-#define ENCRYPT_KEY 41
+#define ENCRYPT_KEY 34
 
 extern char* encrypt_string(const char*);
 extern char* decrypt_string(const char*);

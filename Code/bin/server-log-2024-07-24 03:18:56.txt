@@ -1,0 +1,14 @@
+[INFO] Starting server
+[INFO] Time: 2024-07-24 03:18:56
+
+[INFO] Opening database
+[INFO] Server listening on port 13569...
+2024-07-24 03:19:06 [INFO] Buffer: AUTH_USER 123 manav
+2024-07-24 03:19:06 [INFO] Request recieved to authenticate user
+2024-07-24 03:19:06 [DEBUG] Sent the following response to the client: 
+AUTH_INV
+2024-07-24 03:19:06 [DEBUG] Sent the following response to the client: 
+cwvjÅkpx,
+2024-07-24 03:19:08 [ERROR] Error reading from client
+[INFO] Handling incoming client communication
+[INFO] Closing the socket

@@ -1,0 +1,46 @@
+[INFO] Starting server
+[INFO] Time: 2024-07-24 03:36:12
+
+[INFO] Opening database
+[INFO] Server listening on port 13569...
+2024-07-24 03:36:22 [INFO] Buffer: AUTH_USER 56789 manav
+2024-07-24 03:36:22 [INFO] Request recieved to authenticate user
+2024-07-24 03:36:22 [DEBUG] Sent the following response to the client: 
+AUTH_SUCCESS
+2024-07-24 03:36:22 [DEBUG] Sent the following response to the client: 
+cwvjuweeguu,
+2024-07-24 03:36:29 [INFO] Buffer: UPD_USER 56789 10010 1 1 N
+2024-07-24 03:36:29 [INFO] Request recieved to update user forwarding data
+[INFO] Forwarding number for '56789' has been updated to '10010'
+[INFO] Registration status for '56789' has been updated to 'REGISTERED'
+[INFO] Activation status for '56789' has been updated to 'ACTIVE'
+[INFO] Updated forwarding type
+[INFO] Forward Type: No Reply
+2024-07-24 03:36:29 [DEBUG] Sent the following response to the client: 
+[SERVER] Forwarding number for '56789' has been updated to '10010'
+[SERVER] Registration status for '56789' has been updated to 'REGISTERED'
+[SERVER] Activation status for '56789' has been updated to 'ACTIVE'
+[SERVER] Forwarding type for '56789' has been updated to 'No Reply'
+2024-07-24 03:36:29 [DEBUG] Sent the following response to the client: 
+}ugtxgtBh‘”™ƒ”†‹‰B—„‡”Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BISRRSRI,}ugtxgtBt‡‰‹•–”ƒ–‹‘B•–ƒ–—•Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BItgikuvgtgfI,}ugtxgtBc…–‹˜ƒ–‹‘B•–ƒ–—•Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BIcevkxgI,}ugtxgtBh‘”™ƒ”†‹‰B–›’‡Bˆ‘”BIWXYZ[IBŠƒ•B„‡‡B—’†ƒ–‡†B–‘BIp‘Bt‡’›I,
+2024-07-24 03:36:40 [INFO] Buffer: CFS_CODE 12345
+2024-07-24 03:36:40 [INFO] Call: Request recieved to retrieve code for user forwarding data of '12345'
+2024-07-24 03:36:40 [DEBUG] Sent the following response to the client: 
+UR
+2024-07-24 03:36:40 [DEBUG] Sent the following response to the client: 
+wt,
+2024-07-24 03:36:42 [INFO] Buffer: CFS_CODE 56789
+2024-07-24 03:36:42 [INFO] Call: Request recieved to retrieve code for user forwarding data of '56789'
+2024-07-24 03:36:42 [DEBUG] Sent the following response to the client: 
+F 10010 2
+2024-07-24 03:36:42 [DEBUG] Sent the following response to the client: 
+hBSRRSRBT,
+2024-07-24 03:37:13 [INFO] Buffer: gzkv
+2024-07-24 03:37:13 [WARN] Unknown command received from client: gzkv
+2024-07-24 03:37:13 [DEBUG] Sent the following response to the client: 
+F 10010 2
+2024-07-24 03:37:13 [DEBUG] Sent the following response to the client: 
+hBSRRSRBT,
+2024-07-24 03:37:13 [ERROR] Error reading from client
+[INFO] Handling incoming client communication
+[INFO] Closing the socket
